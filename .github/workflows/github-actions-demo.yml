@@ -30,9 +30,7 @@ jobs:
       run: source venv/bin/activate
 
     - name: Zainstaluj zależności
-      run: |
-           pip install pylint
-           pip install flask
+      run: pip install -r requirements.txt
 
     - name: Uruchom PyLint
       run: pylint app.py

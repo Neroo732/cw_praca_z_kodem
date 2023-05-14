@@ -27,7 +27,7 @@ jobs:
       run: python -m venv venv
 
     - name: Aktywuj wirtualne środowisko
-      run: venv/Scripts/activate
+      run: source venv/Scripts/activate
 
     - name: Zainstaluj zależności
       run: |

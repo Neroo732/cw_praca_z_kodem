@@ -1,3 +1,9 @@
+"""
+Opi
+
+Ten moduł zawiera funkcje do ...
+"""
+
 from flask import Flask
 
 app = Flask(__name__)

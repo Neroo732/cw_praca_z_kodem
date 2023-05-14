@@ -1,2 +1,2 @@
-pip install pylint
-pip install flask
+pylint
+flask
